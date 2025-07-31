@@ -1,0 +1,77 @@
+{
+  "validation": {
+    "required": "此字段为必填项",
+    "email": "请输入有效的邮箱地址",
+    "phone": "请输入有效的电话号码",
+    "url": "请输入有效的网址",
+    "minLength": "至少需要{{min}}个字符",
+    "maxLength": "不能超过{{max}}个字符",
+    "min": "最小值为{{min}}",
+    "max": "最大值为{{max}}",
+    "pattern": "格式不正确",
+    "numeric": "必须是数字",
+    "integer": "必须是整数",
+    "positive": "必须是正数",
+    "fileSize": "文件大小不能超过{{size}}",
+    "fileType": "不支持的文件类型",
+    "passwordMatch": "密码不匹配",
+    "terms": "您必须同意条款和条件"
+  },
+  "api": {
+    "networkError": "网络错误，请检查您的网络连接。",
+    "serverError": "服务器错误，请稍后重试。",
+    "unauthorized": "您无权执行此操作。",
+    "forbidden": "访问被拒绝。",
+    "notFound": "未找到请求的资源。",
+    "timeout": "请求超时，请重试。",
+    "badRequest": "请求无效，请检查您的输入。",
+    "conflict": "资源已存在。",
+    "tooManyRequests": "请求过于频繁，请稍后重试。",
+    "maintenance": "系统正在维护中，请稍后重试。"
+  },
+  "form": {
+    "submitError": "提交表单失败，请重试。",
+    "loadError": "加载表单数据失败。",
+    "saveError": "保存更改失败。",
+    "deleteError": "删除项目失败。",
+    "uploadError": "上传文件失败。",
+    "invalidData": "提供的数据无效。",
+    "missingFields": "请填写所有必填字段。",
+    "duplicateEntry": "此条目已存在。"
+  },
+  "auth": {
+    "loginFailed": "登录失败，请检查您的凭据。",
+    "sessionExpired": "您的会话已过期，请重新登录。",
+    "accessDenied": "访问被拒绝，您没有查看此页面的权限。",
+    "accountLocked": "您的账户已被锁定，请联系客服。",
+    "passwordWeak": "密码太弱，请选择更强的密码。",
+    "emailNotVerified": "请在继续之前验证您的邮箱地址。"
+  },
+  "file": {
+    "uploadFailed": "文件上传失败。",
+    "fileTooLarge": "文件太大，最大大小为{{size}}。",
+    "invalidFileType": "无效的文件类型，允许的类型：{{types}}。",
+    "corruptedFile": "文件似乎已损坏。",
+    "downloadFailed": "下载文件失败。",
+    "processingFailed": "处理文件失败。"
+  },
+  "translation": {
+    "loadFailed": "加载翻译失败。",
+    "saveFailed": "保存翻译失败。",
+    "deleteFailed": "删除翻译失败。",
+    "importFailed": "导入翻译失败。",
+    "exportFailed": "导出翻译失败。",
+    "validationFailed": "翻译验证失败。",
+    "keyExists": "翻译键已存在。",
+    "invalidKey": "无效的翻译键格式。",
+    "missingValue": "翻译值为必填项。"
+  },
+  "general": {
+    "unknownError": "发生未知错误。",
+    "tryAgain": "请重试。",
+    "contactSupport": "如果问题持续存在，请联系客服。",
+    "pageNotFound": "您要查找的页面不存在。",
+    "serviceUnavailable": "服务暂时不可用。",
+    "maintenanceMode": "系统目前正在维护中。"
+  }
+}

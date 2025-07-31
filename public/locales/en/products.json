@@ -1,0 +1,97 @@
+{
+  "categories": {
+    "finePitch": "Fine Pitch LED Display",
+    "indoor": "Indoor LED Display",
+    "outdoor": "Outdoor LED Display",
+    "rental": "Rental LED Display",
+    "creative": "Creative LED Display",
+    "transparent": "Transparent LED Display"
+  },
+  "specifications": {
+    "pixelPitch": "Pixel Pitch",
+    "brightness": "Brightness",
+    "refreshRate": "Refresh Rate",
+    "colorTemperature": "Color Temperature",
+    "viewingAngle": "Viewing Angle",
+    "ipRating": "IP Rating",
+    "lifespan": "Lifespan",
+    "powerConsumption": "Power Consumption",
+    "resolution": "Resolution",
+    "cabinetSize": "Cabinet Size",
+    "weight": "Weight",
+    "contrast": "Contrast Ratio",
+    "grayscale": "Grayscale",
+    "colorGamut": "Color Gamut"
+  },
+  "units": {
+    "mm": "mm",
+    "nits": "nits",
+    "hz": "Hz",
+    "kelvin": "K",
+    "degrees": "°",
+    "hours": "hours",
+    "watts": "W",
+    "wattsPerSqm": "W/m²",
+    "kg": "kg",
+    "ratio": ":1",
+    "bit": "bit",
+    "percent": "%"
+  },
+  "applications": {
+    "conference": "Conference Room",
+    "advertising": "Advertising Display",
+    "stage": "Stage Performance",
+    "sports": "Sports Venue",
+    "transportation": "Transportation Hub",
+    "retail": "Retail Store",
+    "control": "Control Room",
+    "broadcast": "Broadcast Studio",
+    "education": "Education",
+    "corporate": "Corporate Display"
+  },
+  "features": {
+    "highResolution": "High Resolution",
+    "seamlessSplicing": "Seamless Splicing",
+    "wideViewingAngle": "Wide Viewing Angle",
+    "highBrightness": "High Brightness",
+    "energyEfficient": "Energy Efficient",
+    "easyMaintenance": "Easy Maintenance",
+    "frontAccess": "Front Access",
+    "quickInstall": "Quick Installation",
+    "weatherResistant": "Weather Resistant",
+    "dustProof": "Dust Proof"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "getQuote": "Get Quote",
+    "compare": "Compare",
+    "addToCompare": "Add to Compare",
+    "removeFromCompare": "Remove from Compare",
+    "downloadDatasheet": "Download Datasheet",
+    "contactSales": "Contact Sales",
+    "requestSample": "Request Sample"
+  },
+  "filters": {
+    "all": "All Products",
+    "pixelPitch": "Pixel Pitch",
+    "application": "Application",
+    "brightness": "Brightness",
+    "size": "Size",
+    "priceRange": "Price Range",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "name": "Name",
+      "price": "Price",
+      "popularity": "Popularity",
+      "newest": "Newest"
+    }
+  },
+  "comparison": {
+    "title": "Product Comparison",
+    "compare": "Compare Products",
+    "selected": "Selected",
+    "max": "Maximum 3 products",
+    "clear": "Clear All",
+    "export": "Export Comparison"
+  }
+}

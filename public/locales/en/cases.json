@@ -1,0 +1,78 @@
+{
+  "title": "Success Cases",
+  "subtitle": "Discover how our LED displays transform spaces worldwide",
+  "filters": {
+    "all": "All Cases",
+    "industry": "Industry",
+    "region": "Region",
+    "product": "Product Type",
+    "year": "Year"
+  },
+  "industries": {
+    "retail": "Retail",
+    "corporate": "Corporate",
+    "education": "Education",
+    "entertainment": "Entertainment",
+    "transportation": "Transportation",
+    "sports": "Sports",
+    "government": "Government",
+    "hospitality": "Hospitality"
+  },
+  "regions": {
+    "northAmerica": "North America",
+    "europe": "Europe",
+    "asia": "Asia",
+    "oceania": "Oceania",
+    "africa": "Africa",
+    "southAmerica": "South America"
+  },
+  "caseDetails": {
+    "overview": "Project Overview",
+    "challenge": "Challenge",
+    "solution": "Our Solution",
+    "results": "Results",
+    "specifications": "Technical Specifications",
+    "timeline": "Project Timeline",
+    "testimonial": "Client Testimonial",
+    "gallery": "Project Gallery",
+    "relatedProducts": "Related Products"
+  },
+  "stats": {
+    "projectsCompleted": "Projects Completed",
+    "countriesServed": "Countries Served",
+    "squareMetersInstalled": "Square Meters Installed",
+    "yearsExperience": "Years Experience"
+  },
+  "map": {
+    "title": "Global Project Map",
+    "subtitle": "Our LED displays light up the world",
+    "viewProject": "View Project",
+    "projectsIn": "projects in"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "readMore": "Read Full Case Study",
+    "clientSince": "Client since"
+  },
+  "cta": {
+    "title": "Ready to Create Your Success Story?",
+    "description": "Join hundreds of satisfied clients worldwide",
+    "button": "Start Your Project"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "downloadPDF": "Download PDF",
+    "shareCase": "Share Case",
+    "contactSales": "Contact Sales",
+    "similarProjects": "Similar Projects"
+  },
+  "metadata": {
+    "client": "Client",
+    "location": "Location",
+    "completionDate": "Completion Date",
+    "projectValue": "Project Value",
+    "displayArea": "Display Area",
+    "pixelPitch": "Pixel Pitch",
+    "installation": "Installation Type"
+  }
+}

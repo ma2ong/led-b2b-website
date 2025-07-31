@@ -1,0 +1,128 @@
+{
+  "title": "LED Display Solutions",
+  "subtitle": "Professional solutions for every industry and application",
+  "categories": {
+    "conference": {
+      "title": "Conference Room Solutions",
+      "description": "High-resolution displays for professional meetings and presentations",
+      "features": [
+        "Ultra-fine pixel pitch for close viewing",
+        "Seamless video wall configurations",
+        "Easy content management",
+        "Silent operation"
+      ],
+      "applications": [
+        "Corporate boardrooms",
+        "Meeting rooms",
+        "Training centers",
+        "Video conferencing"
+      ]
+    },
+    "advertising": {
+      "title": "Digital Advertising Solutions",
+      "description": "Eye-catching displays that drive customer engagement",
+      "features": [
+        "High brightness for outdoor visibility",
+        "Remote content management",
+        "Weather-resistant design",
+        "Energy-efficient operation"
+      ],
+      "applications": [
+        "Shopping malls",
+        "Airports",
+        "Bus stations",
+        "Street advertising"
+      ]
+    },
+    "stage": {
+      "title": "Stage & Event Solutions",
+      "description": "Dynamic displays for concerts, events, and performances",
+      "features": [
+        "Lightweight rental panels",
+        "Quick setup and teardown",
+        "High refresh rate",
+        "Creative shapes and sizes"
+      ],
+      "applications": [
+        "Concerts and festivals",
+        "Corporate events",
+        "Trade shows",
+        "Theater productions"
+      ]
+    },
+    "sports": {
+      "title": "Sports Venue Solutions",
+      "description": "Large-scale displays for stadiums and sports facilities",
+      "features": [
+        "Ultra-high brightness",
+        "Wide viewing angles",
+        "Real-time score display",
+        "Instant replay capability"
+      ],
+      "applications": [
+        "Football stadiums",
+        "Basketball arenas",
+        "Racing tracks",
+        "Sports bars"
+      ]
+    },
+    "transportation": {
+      "title": "Transportation Solutions",
+      "description": "Information displays for airports, stations, and transit hubs",
+      "features": [
+        "High reliability 24/7 operation",
+        "Real-time information updates",
+        "Multi-language support",
+        "Emergency alert capability"
+      ],
+      "applications": [
+        "Airports",
+        "Train stations",
+        "Bus terminals",
+        "Subway systems"
+      ]
+    },
+    "retail": {
+      "title": "Retail Display Solutions",
+      "description": "Engaging displays that enhance the shopping experience",
+      "features": [
+        "Interactive touch capability",
+        "Product showcase displays",
+        "Dynamic pricing updates",
+        "Brand storytelling"
+      ],
+      "applications": [
+        "Retail stores",
+        "Showrooms",
+        "Shopping centers",
+        "Brand experiences"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Why Choose Our Solutions",
+    "items": [
+      {
+        "title": "Custom Design",
+        "description": "Tailored solutions to meet your specific requirements"
+      },
+      {
+        "title": "Professional Installation",
+        "description": "Expert installation and commissioning services"
+      },
+      {
+        "title": "Ongoing Support",
+        "description": "24/7 technical support and maintenance services"
+      },
+      {
+        "title": "Quality Guarantee",
+        "description": "Industry-leading warranty and quality assurance"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Contact our solution experts to discuss your project requirements",
+    "button": "Get Custom Solution"
+  }
+}

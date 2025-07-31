@@ -1,0 +1,75 @@
+{
+  "title": "News & Updates",
+  "subtitle": "Stay informed about the latest LED display technology and industry trends",
+  "categories": {
+    "all": "All News",
+    "company": "Company News",
+    "products": "Product Updates",
+    "industry": "Industry News",
+    "technology": "Technology",
+    "events": "Events & Exhibitions",
+    "awards": "Awards & Recognition"
+  },
+  "filters": {
+    "category": "Category",
+    "date": "Date",
+    "tags": "Tags",
+    "search": "Search news...",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "popular": "Most Popular"
+    }
+  },
+  "article": {
+    "readMore": "Read More",
+    "readTime": "min read",
+    "publishedOn": "Published on",
+    "author": "By",
+    "tags": "Tags",
+    "share": "Share",
+    "relatedArticles": "Related Articles",
+    "backToNews": "Back to News"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest LED display news and updates delivered to your inbox",
+    "placeholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "success": "Successfully subscribed!",
+    "error": "Subscription failed. Please try again."
+  },
+  "featured": {
+    "title": "Featured News",
+    "latest": "Latest News",
+    "trending": "Trending"
+  },
+  "social": {
+    "shareOn": "Share on",
+    "platforms": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    }
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "results": "results"
+  },
+  "noResults": {
+    "title": "No articles found",
+    "description": "Try adjusting your search criteria or browse all news",
+    "button": "View All News"
+  },
+  "archive": {
+    "title": "News Archive",
+    "byYear": "By Year",
+    "byMonth": "By Month"
+  }
+}

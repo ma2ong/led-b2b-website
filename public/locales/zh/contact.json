@@ -1,0 +1,135 @@
+{
+  "title": "联系我们",
+  "subtitle": "与我们的LED显示屏专家取得联系",
+  "hero": {
+    "title": "让我们讨论您的LED显示项目",
+    "description": "我们的专家团队随时准备帮助您找到完美的LED显示解决方案。"
+  },
+  "contactInfo": {
+    "title": "联系信息",
+    "headquarters": "全球总部",
+    "address": "深圳市联锦光电有限公司",
+    "fullAddress": "中国深圳市宝安区工业园A栋",
+    "phone": "+86-755-1234-5678",
+    "email": "info@lejin-led.com",
+    "website": "www.lejin-led.com",
+    "businessHours": "营业时间",
+    "hours": "周一至周五：上午9:00 - 下午6:00 (GMT+8)",
+    "timezone": "中国标准时间"
+  },
+  "offices": {
+    "title": "全球办事处",
+    "regions": {
+      "asia": "亚太地区",
+      "europe": "欧洲",
+      "americas": "美洲",
+      "middleEast": "中东和非洲"
+    }
+  },
+  "contactMethods": {
+    "title": "联系方式",
+    "phone": {
+      "title": "电话",
+      "description": "直接与我们的销售团队通话",
+      "action": "立即致电"
+    },
+    "email": {
+      "title": "邮箱",
+      "description": "发送您的详细需求",
+      "action": "发送邮件"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "与我们的专家快速聊天",
+      "action": "立即聊天"
+    },
+    "wechat": {
+      "title": "微信",
+      "description": "通过微信获得即时支持",
+      "action": "添加微信"
+    }
+  },
+  "form": {
+    "title": "发送消息",
+    "description": "填写下面的表单，我们将在24小时内回复您",
+    "fields": {
+      "name": "姓名",
+      "email": "邮箱地址",
+      "phone": "电话号码",
+      "company": "公司名称",
+      "position": "职位",
+      "country": "国家",
+      "subject": "主题",
+      "message": "消息",
+      "projectType": "项目类型",
+      "budget": "预算范围",
+      "timeline": "项目时间",
+      "newsletter": "订阅我们的LED显示屏更新资讯"
+    },
+    "placeholders": {
+      "name": "请输入您的姓名",
+      "email": "请输入邮箱地址",
+      "phone": "请输入电话号码",
+      "company": "请输入公司名称",
+      "position": "请输入职位",
+      "country": "选择国家",
+      "subject": "我们能为您做什么？",
+      "message": "告诉我们您的项目需求...",
+      "timeline": "您希望什么时候完成？"
+    },
+    "projectTypes": {
+      "inquiry": "一般咨询",
+      "quote": "询价",
+      "support": "技术支持",
+      "partnership": "合作机会",
+      "other": "其他"
+    },
+    "budgetRanges": {
+      "under50k": "50万元以下",
+      "50k-100k": "50万-100万元",
+      "100k-500k": "100万-500万元",
+      "over500k": "500万元以上",
+      "discuss": "面议"
+    },
+    "submit": "发送消息",
+    "sending": "发送中...",
+    "success": "消息发送成功！我们会尽快回复您。",
+    "error": "发送失败，请重试或直接联系我们。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "你们的典型回复时间是多久？",
+        "answer": "我们在工作日内24小时内回复所有咨询。如有紧急事项，请直接致电。"
+      },
+      {
+        "question": "你们提供国际运输吗？",
+        "answer": "是的，我们向全球发货。我们有向160多个国家交付的经验，可以处理所有物流和海关要求。"
+      },
+      {
+        "question": "你们提供什么保修？",
+        "answer": "我们为所有LED显示产品提供全面的2年保修，还可选择延长保修套餐。"
+      },
+      {
+        "question": "你们能提供定制解决方案吗？",
+        "answer": "当然可以！我们专门提供根据您的具体要求定制的LED显示解决方案，包括独特的形状、尺寸和应用。"
+      }
+    ]
+  },
+  "support": {
+    "title": "需要技术支持？",
+    "description": "我们的技术支持团队可以帮助您进行安装、故障排除和维护。",
+    "button": "获取技术支持"
+  },
+  "social": {
+    "title": "关注我们",
+    "description": "了解我们的最新产品和行业新闻",
+    "platforms": {
+      "linkedin": "领英",
+      "youtube": "YouTube",
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "products": "Products",
+  "solutions": "Solutions",
+  "cases": "Cases",
+  "news": "News",
+  "support": "Support",
+  "contact": "Contact",
+  "search": "Search",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "switchLanguage": "Switch language",
+  "selectLanguage": "Select Language",
+  "menu": "Menu",
+  "language": "Language",
+  "submenus": {
+    "products": {
+      "finePitch": "Fine Pitch LED",
+      "indoor": "Indoor LED Display",
+      "outdoor": "Outdoor LED Display",
+      "rental": "Rental LED Display",
+      "creative": "Creative LED Display",
+      "transparent": "Transparent LED",
+      "badges": {
+        "popular": "Popular",
+        "new": "New",
+        "hot": "Hot"
+      }
+    },
+    "solutions": {
+      "conference": "Conference Room",
+      "advertising": "Digital Advertising",
+      "stage": "Stage & Events",
+      "sports": "Sports Venue",
+      "transportation": "Transportation",
+      "retail": "Retail Display"
+    },
+    "support": {
+      "technical": "Technical Support",
+      "downloads": "Downloads",
+      "faq": "FAQ",
+      "warranty": "Warranty"
+    }
+  }
+}

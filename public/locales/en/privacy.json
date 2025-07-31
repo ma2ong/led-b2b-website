@@ -1,0 +1,63 @@
+{
+  "privacyPolicy": "Privacy Policy",
+  "privacyPolicyTitle": "Privacy Policy - LED Technology Solutions",
+  "privacyPolicyDescription": "Learn how we collect, use, and protect your personal information in compliance with GDPR and other privacy regulations.",
+  "privacyPolicyIntro": "We are committed to protecting your privacy and ensuring the security of your personal information. This policy explains how we collect, use, and safeguard your data.",
+  "lastUpdated": "Last updated",
+  "tableOfContents": "Table of Contents",
+  "contactUs": "Contact Us",
+  "privacyContactInfo": "If you have any questions about this Privacy Policy or our data practices, please contact us:",
+  "email": "Email",
+  "address": "Address",
+  "phone": "Phone",
+  
+  "informationCollection": "Information We Collect",
+  "informationCollectionContent": "<p>We collect information you provide directly to us, such as when you:</p><ul><li>Fill out inquiry forms or contact us</li><li>Subscribe to our newsletter</li><li>Create an account on our website</li><li>Participate in surveys or promotions</li></ul><p>This may include your name, email address, phone number, company information, and project details.</p><p>We also automatically collect certain information when you visit our website, including your IP address, browser type, operating system, and browsing behavior through cookies and similar technologies.</p>",
+  
+  "informationUse": "How We Use Your Information",
+  "informationUseContent": "<p>We use the information we collect to:</p><ul><li>Respond to your inquiries and provide customer support</li><li>Send you product information and marketing communications (with your consent)</li><li>Improve our website and services</li><li>Analyze usage patterns and trends</li><li>Comply with legal obligations</li><li>Protect against fraud and security threats</li></ul><p>We process your personal data based on legitimate interests, contractual necessity, legal compliance, or your explicit consent.</p>",
+  
+  "informationSharing": "Information Sharing and Disclosure",
+  "informationSharingContent": "<p>We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:</p><ul><li>With service providers who assist us in operating our website and business</li><li>When required by law or to protect our rights</li><li>In connection with a business transfer or merger</li><li>With your explicit consent</li></ul><p>All third-party service providers are contractually bound to protect your information and use it only for specified purposes.</p>",
+  
+  "dataSecurity": "Data Security",
+  "dataSecurityContent": "<p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include:</p><ul><li>Encryption of data in transit and at rest</li><li>Regular security assessments and updates</li><li>Access controls and authentication systems</li><li>Employee training on data protection</li><li>Secure data centers and backup systems</li></ul><p>While we strive to protect your information, no method of transmission over the internet is 100% secure.</p>",
+  
+  "cookiesAndTracking": "Cookies and Tracking Technologies",
+  "cookiesAndTrackingContent": "<p>We use cookies and similar technologies to enhance your browsing experience and analyze website usage. Types of cookies we use include:</p><ul><li><strong>Necessary cookies:</strong> Essential for website functionality</li><li><strong>Analytics cookies:</strong> Help us understand how visitors use our site</li><li><strong>Marketing cookies:</strong> Used to deliver relevant advertisements</li><li><strong>Functional cookies:</strong> Remember your preferences and settings</li></ul><p>You can control cookie settings through our cookie consent banner or your browser settings. Disabling certain cookies may affect website functionality.</p>",
+  
+  "yourRights": "Your Rights and Choices",
+  "yourRightsContent": "<p>Depending on your location, you may have certain rights regarding your personal information:</p><ul><li>Access and obtain a copy of your personal data</li><li>Correct inaccurate or incomplete information</li><li>Request deletion of your personal data</li><li>Restrict or object to processing</li><li>Data portability</li><li>Withdraw consent at any time</li></ul><p>To exercise these rights, please contact us using the information provided below. We will respond to your request within the timeframe required by applicable law.</p>",
+  
+  "gdprRights": "Your GDPR Rights",
+  "gdprRightsIntro": "If you are located in the European Union, you have the following rights under the General Data Protection Regulation (GDPR):",
+  "rightToAccess": "Right to access your personal data and information about how it's processed",
+  "rightToRectification": "Right to correct inaccurate or incomplete personal data",
+  "rightToErasure": "Right to request deletion of your personal data ('right to be forgotten')",
+  "rightToRestriction": "Right to restrict processing of your personal data in certain circumstances",
+  "rightToPortability": "Right to receive your personal data in a portable format",
+  "rightToObject": "Right to object to processing based on legitimate interests or direct marketing",
+  
+  "cookieNotice": "We use cookies to enhance your browsing experience and analyze our traffic. By continuing to use our site, you consent to our use of cookies.",
+  "learnMore": "Learn more",
+  "acceptAll": "Accept All",
+  "rejectAll": "Reject All",
+  "customize": "Customize",
+  "cookiePreferences": "Cookie Preferences",
+  "cookiePreferencesDesc": "We use different types of cookies to optimize your experience on our website. You can choose which categories you'd like to allow.",
+  "required": "Required",
+  "savePreferences": "Save Preferences",
+  "cookiePolicy": "Cookie Policy",
+  
+  "necessaryCookies": "Necessary Cookies",
+  "necessaryCookiesDesc": "These cookies are essential for the website to function properly. They enable basic features like page navigation and access to secure areas.",
+  
+  "analyticsCookies": "Analytics Cookies",
+  "analyticsCookiesDesc": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.",
+  
+  "marketingCookies": "Marketing Cookies",
+  "marketingCookiesDesc": "These cookies are used to deliver advertisements that are relevant to you and your interests. They may also be used to limit the number of times you see an advertisement.",
+  
+  "functionalCookies": "Functional Cookies",
+  "functionalCookiesDesc": "These cookies enable the website to provide enhanced functionality and personalization, such as remembering your preferences and settings."
+}

@@ -1,0 +1,269 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+        - production
+        - staging
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  # 构建和测试
+  build-and-test:
+    runs-on: ubuntu-latest
+    outputs:
+      image-tag: ${{ steps.meta.outputs.tags }}
+      image-digest: ${{ steps.build.outputs.digest }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run linting
+      run: npm run lint
+    
+    - name: Run type checking
+      run: npm run type-check
+    
+    - name: Run tests
+      run: npm run test:all
+      env:
+        CI: true
+    
+    - name: Build application
+      run: npm run build
+      env:
+        NODE_ENV: production
+    
+    - name: Log in to Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Extract metadata
+      id: meta
+      uses: docker/metadata-action@v5
+      with:
+        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=sha,prefix={{branch}}-
+    
+    - name: Build and push Docker image
+      id: build
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+
+  # 安全扫描
+  security-scan:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: ${{ needs.build-and-test.outputs.image-tag }}
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+    
+    - name: Upload Trivy scan results
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        sarif_file: 'trivy-results.sarif'
+    
+    - name: Run CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        languages: javascript
+
+  # 部署到Staging
+  deploy-staging:
+    runs-on: ubuntu-latest
+    needs: [build-and-test, security-scan]
+    if: github.ref == 'refs/heads/main' || github.event.inputs.environment == 'staging'
+    environment: staging
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.STAGING_SSH_KEY }}
+    
+    - name: Deploy to staging
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.STAGING_USER }}@${{ secrets.STAGING_HOST }} << 'EOF'
+          cd /opt/led-b2b-website
+          git pull origin main
+          ./scripts/deploy.sh ${{ needs.build-and-test.outputs.image-tag }} staging
+        EOF
+    
+    - name: Run smoke tests
+      run: |
+        sleep 30
+        curl -f https://staging.led-displays.com/api/health
+        curl -f https://staging.led-displays.com/
+    
+    - name: Notify deployment
+      uses: 8398a7/action-slack@v3
+      with:
+        status: ${{ job.status }}
+        channel: '#deployments'
+        text: 'Staging deployment completed'
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  # 部署到Production
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: [build-and-test, security-scan, deploy-staging]
+    if: startsWith(github.ref, 'refs/tags/v') || github.event.inputs.environment == 'production'
+    environment: production
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.PRODUCTION_SSH_KEY }}
+    
+    - name: Create deployment
+      uses: actions/github-script@v7
+      id: deployment
+      with:
+        script: |
+          const deployment = await github.rest.repos.createDeployment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            ref: context.ref,
+            environment: 'production',
+            required_contexts: [],
+            auto_merge: false
+          });
+          return deployment.data.id;
+    
+    - name: Deploy to production
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.PRODUCTION_USER }}@${{ secrets.PRODUCTION_HOST }} << 'EOF'
+          cd /opt/led-b2b-website
+          git pull origin main
+          ./scripts/deploy.sh ${{ needs.build-and-test.outputs.image-tag }} production
+        EOF
+    
+    - name: Run production health checks
+      run: |
+        sleep 60
+        curl -f https://led-displays.com/api/health
+        curl -f https://led-displays.com/
+        curl -f https://led-displays.com/products
+        curl -f https://led-displays.com/sitemap.xml
+    
+    - name: Update deployment status (success)
+      if: success()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.repos.createDeploymentStatus({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            deployment_id: ${{ steps.deployment.outputs.result }},
+            state: 'success',
+            environment_url: 'https://led-displays.com',
+            description: 'Deployment completed successfully'
+          });
+    
+    - name: Update deployment status (failure)
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.repos.createDeploymentStatus({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            deployment_id: ${{ steps.deployment.outputs.result }},
+            state: 'failure',
+            description: 'Deployment failed'
+          });
+    
+    - name: Notify deployment
+      uses: 8398a7/action-slack@v3
+      with:
+        status: ${{ job.status }}
+        channel: '#deployments'
+        text: 'Production deployment completed'
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  # 性能测试
+  performance-test:
+    runs-on: ubuntu-latest
+    needs: deploy-production
+    if: success()
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Run Lighthouse CI
+      uses: treosh/lighthouse-ci-action@v10
+      with:
+        configPath: './lighthouserc.json'
+        uploadArtifacts: true
+        temporaryPublicStorage: true
+        urls: |
+          https://led-displays.com
+          https://led-displays.com/products
+          https://led-displays.com/about
+          https://led-displays.com/contact
+    
+    - name: Run load tests
+      run: |
+        npx artillery quick --count 10 --num 100 https://led-displays.com
+    
+    - name: Upload performance results
+      uses: actions/upload-artifact@v3
+      with:
+        name: performance-results
+        path: |
+          lighthouse-results/
+          artillery-results/

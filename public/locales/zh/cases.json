@@ -1,0 +1,78 @@
+{
+  "title": "成功案例",
+  "subtitle": "了解我们的LED显示屏如何改变全球各地的空间",
+  "filters": {
+    "all": "全部案例",
+    "industry": "行业",
+    "region": "地区",
+    "product": "产品类型",
+    "year": "年份"
+  },
+  "industries": {
+    "retail": "零售",
+    "corporate": "企业",
+    "education": "教育",
+    "entertainment": "娱乐",
+    "transportation": "交通",
+    "sports": "体育",
+    "government": "政府",
+    "hospitality": "酒店"
+  },
+  "regions": {
+    "northAmerica": "北美",
+    "europe": "欧洲",
+    "asia": "亚洲",
+    "oceania": "大洋洲",
+    "africa": "非洲",
+    "southAmerica": "南美"
+  },
+  "caseDetails": {
+    "overview": "项目概述",
+    "challenge": "挑战",
+    "solution": "我们的解决方案",
+    "results": "成果",
+    "specifications": "技术规格",
+    "timeline": "项目时间线",
+    "testimonial": "客户评价",
+    "gallery": "项目图库",
+    "relatedProducts": "相关产品"
+  },
+  "stats": {
+    "projectsCompleted": "完成项目",
+    "countriesServed": "服务国家",
+    "squareMetersInstalled": "安装面积",
+    "yearsExperience": "年经验"
+  },
+  "map": {
+    "title": "全球项目地图",
+    "subtitle": "我们的LED显示屏点亮世界",
+    "viewProject": "查看项目",
+    "projectsIn": "个项目在"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "readMore": "阅读完整案例",
+    "clientSince": "合作始于"
+  },
+  "cta": {
+    "title": "准备创造您的成功故事？",
+    "description": "加入全球数百位满意客户的行列",
+    "button": "开始您的项目"
+  },
+  "actions": {
+    "viewDetails": "查看详情",
+    "downloadPDF": "下载PDF",
+    "shareCase": "分享案例",
+    "contactSales": "联系销售",
+    "similarProjects": "相似项目"
+  },
+  "metadata": {
+    "client": "客户",
+    "location": "位置",
+    "completionDate": "完成日期",
+    "projectValue": "项目价值",
+    "displayArea": "显示面积",
+    "pixelPitch": "像素间距",
+    "installation": "安装类型"
+  }
+}

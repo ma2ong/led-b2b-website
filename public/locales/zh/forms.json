@@ -1,0 +1,99 @@
+{
+  "steps": {
+    "projectInfo": "项目信息",
+    "technicalRequirements": "技术需求",
+    "contactInfo": "联系信息"
+  },
+  "fields": {
+    "projectType": "项目类型",
+    "displaySize": "显示屏尺寸",
+    "pixelPitch": "像素间距",
+    "budget": "预算范围",
+    "timeline": "项目周期",
+    "brightness": "亮度要求",
+    "installation": "安装方式",
+    "environment": "使用环境",
+    "specialRequirements": "特殊要求",
+    "attachments": "附件",
+    "name": "姓名",
+    "email": "邮箱地址",
+    "phone": "电话号码",
+    "company": "公司名称",
+    "position": "职位",
+    "country": "国家",
+    "newsletter": "订阅LED显示屏产品更新资讯",
+    "terms": "我同意服务条款和隐私政策"
+  },
+  "placeholders": {
+    "displaySize": "例如：3米 x 2米",
+    "pixelPitch": "选择像素间距",
+    "budget": "选择预算范围",
+    "timeline": "例如：2个月",
+    "brightness": "例如：5000 cd/m²",
+    "installation": "选择安装方式",
+    "specialRequirements": "描述特殊要求...",
+    "name": "请输入您的姓名",
+    "email": "请输入邮箱地址",
+    "phone": "请输入电话号码",
+    "company": "请输入公司名称",
+    "position": "请输入职位",
+    "country": "选择国家"
+  },
+  "help": {
+    "attachments": "上传项目图纸、规格说明或参考图片（支持PDF、DOC、JPG、PNG格式，单个文件最大10MB）"
+  },
+  "buttons": {
+    "previous": "上一步",
+    "next": "下一步",
+    "submit": "提交询盘"
+  },
+  "validation": {
+    "projectTypeRequired": "请选择项目类型",
+    "displaySizeRequired": "请输入显示屏尺寸",
+    "pixelPitchRequired": "请选择像素间距",
+    "budgetRequired": "请选择预算范围",
+    "installationRequired": "请选择安装方式",
+    "environmentRequired": "请选择使用环境",
+    "nameRequired": "请输入您的姓名",
+    "nameMinLength": "姓名至少需要2个字符",
+    "emailRequired": "请输入邮箱地址",
+    "emailInvalid": "请输入有效的邮箱地址",
+    "phoneRequired": "请输入电话号码",
+    "companyRequired": "请输入公司名称",
+    "countryRequired": "请选择国家",
+    "termsRequired": "请同意服务条款"
+  },
+  "projectType": {
+    "indoor": "室内LED显示屏",
+    "outdoor": "户外LED显示屏",
+    "rental": "租赁LED显示屏",
+    "creative": "创意LED显示屏",
+    "other": "其他"
+  },
+  "pixelPitch": {
+    "custom": "定制"
+  },
+  "budget": {
+    "under10k": "10万元以下",
+    "10k50k": "10万-50万元",
+    "50k100k": "50万-100万元",
+    "100k500k": "100万-500万元",
+    "over500k": "500万元以上",
+    "discuss": "面议"
+  },
+  "installation": {
+    "wallMount": "壁挂安装",
+    "ceilingMount": "吊装",
+    "floorStand": "落地支架",
+    "truss": "桁架系统",
+    "custom": "定制安装"
+  },
+  "environment": {
+    "indoor": "室内",
+    "outdoor": "户外",
+    "semiOutdoor": "半户外"
+  },
+  "country": {
+    "other": "其他"
+  }
+}

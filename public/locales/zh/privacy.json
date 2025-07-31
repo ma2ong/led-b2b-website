@@ -1,0 +1,63 @@
+{
+  "privacyPolicy": "隐私政策",
+  "privacyPolicyTitle": "隐私政策 - LED技术解决方案",
+  "privacyPolicyDescription": "了解我们如何收集、使用和保护您的个人信息，符合GDPR和其他隐私法规要求。",
+  "privacyPolicyIntro": "我们致力于保护您的隐私并确保您个人信息的安全。本政策说明我们如何收集、使用和保护您的数据。",
+  "lastUpdated": "最后更新",
+  "tableOfContents": "目录",
+  "contactUs": "联系我们",
+  "privacyContactInfo": "如果您对本隐私政策或我们的数据处理有任何疑问，请联系我们：",
+  "email": "邮箱",
+  "address": "地址",
+  "phone": "电话",
+  
+  "informationCollection": "我们收集的信息",
+  "informationCollectionContent": "<p>我们收集您直接提供给我们的信息，例如当您：</p><ul><li>填写询盘表格或联系我们</li><li>订阅我们的新闻通讯</li><li>在我们的网站上创建账户</li><li>参与调查或促销活动</li></ul><p>这可能包括您的姓名、电子邮件地址、电话号码、公司信息和项目详情。</p><p>当您访问我们的网站时，我们还会通过Cookie和类似技术自动收集某些信息，包括您的IP地址、浏览器类型、操作系统和浏览行为。</p>",
+  
+  "informationUse": "我们如何使用您的信息",
+  "informationUseContent": "<p>我们使用收集的信息来：</p><ul><li>回应您的询问并提供客户支持</li><li>向您发送产品信息和营销通讯（经您同意）</li><li>改进我们的网站和服务</li><li>分析使用模式和趋势</li><li>遵守法律义务</li><li>防范欺诈和安全威胁</li></ul><p>我们基于合法利益、合同必要性、法律合规或您的明确同意来处理您的个人数据。</p>",
+  
+  "informationSharing": "信息共享和披露",
+  "informationSharingContent": "<p>我们不会向第三方出售、交易或出租您的个人信息。我们仅在以下情况下共享您的信息：</p><ul><li>与协助我们运营网站和业务的服务提供商</li><li>法律要求或为保护我们的权利</li><li>在业务转让或合并时</li><li>经您明确同意</li></ul><p>所有第三方服务提供商都有合同义务保护您的信息，并仅将其用于指定目的。</p>",
+  
+  "dataSecurity": "数据安全",
+  "dataSecurityContent": "<p>我们实施适当的技术和组织措施来保护您的个人信息免受未经授权的访问、更改、披露或销毁。这些措施包括：</p><ul><li>传输和静态数据加密</li><li>定期安全评估和更新</li><li>访问控制和身份验证系统</li><li>员工数据保护培训</li><li>安全数据中心和备份系统</li></ul><p>虽然我们努力保护您的信息，但没有任何通过互联网传输的方法是100%安全的。</p>",
+  
+  "cookiesAndTracking": "Cookie和跟踪技术",
+  "cookiesAndTrackingContent": "<p>我们使用Cookie和类似技术来增强您的浏览体验并分析网站使用情况。我们使用的Cookie类型包括：</p><ul><li><strong>必要Cookie：</strong>网站功能必需的</li><li><strong>分析Cookie：</strong>帮助我们了解访问者如何使用我们的网站</li><li><strong>营销Cookie：</strong>用于投放相关广告</li><li><strong>功能Cookie：</strong>记住您的偏好和设置</li></ul><p>您可以通过我们的Cookie同意横幅或浏览器设置控制Cookie设置。禁用某些Cookie可能会影响网站功能。</p>",
+  
+  "yourRights": "您的权利和选择",
+  "yourRightsContent": "<p>根据您所在的位置，您可能对您的个人信息拥有某些权利：</p><ul><li>访问并获取您个人数据的副本</li><li>更正不准确或不完整的信息</li><li>请求删除您的个人数据</li><li>限制或反对处理</li><li>数据可携性</li><li>随时撤回同意</li></ul><p>要行使这些权利，请使用下面提供的信息联系我们。我们将在适用法律要求的时间范围内回应您的请求。</p>",
+  
+  "gdprRights": "您的GDPR权利",
+  "gdprRightsIntro": "如果您位于欧盟，您在《通用数据保护条例》(GDPR)下拥有以下权利：",
+  "rightToAccess": "访问您的个人数据和了解其处理方式的权利",
+  "rightToRectification": "更正不准确或不完整个人数据的权利",
+  "rightToErasure": "请求删除您个人数据的权利（"被遗忘权"）",
+  "rightToRestriction": "在某些情况下限制处理您个人数据的权利",
+  "rightToPortability": "以可携带格式接收您个人数据的权利",
+  "rightToObject": "反对基于合法利益或直接营销的处理的权利",
+  
+  "cookieNotice": "我们使用Cookie来增强您的浏览体验并分析我们的流量。继续使用我们的网站即表示您同意我们使用Cookie。",
+  "learnMore": "了解更多",
+  "acceptAll": "接受全部",
+  "rejectAll": "拒绝全部",
+  "customize": "自定义",
+  "cookiePreferences": "Cookie偏好设置",
+  "cookiePreferencesDesc": "我们使用不同类型的Cookie来优化您在我们网站上的体验。您可以选择允许哪些类别。",
+  "required": "必需",
+  "savePreferences": "保存偏好",
+  "cookiePolicy": "Cookie政策",
+  
+  "necessaryCookies": "必要Cookie",
+  "necessaryCookiesDesc": "这些Cookie对网站正常运行至关重要。它们启用基本功能，如页面导航和访问安全区域。",
+  
+  "analyticsCookies": "分析Cookie",
+  "analyticsCookiesDesc": "这些Cookie通过匿名收集和报告信息，帮助我们了解访问者如何与我们的网站互动。",
+  
+  "marketingCookies": "营销Cookie",
+  "marketingCookiesDesc": "这些Cookie用于投放与您和您的兴趣相关的广告。它们也可能用于限制您看到广告的次数。",
+  
+  "functionalCookies": "功能Cookie",
+  "functionalCookiesDesc": "这些Cookie使网站能够提供增强的功能和个性化，例如记住您的偏好和设置。"
+}

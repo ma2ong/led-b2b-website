@@ -1,0 +1,135 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Get in touch with our LED display experts",
+  "hero": {
+    "title": "Let's Discuss Your LED Display Project",
+    "description": "Our team of experts is ready to help you find the perfect LED display solution for your needs."
+  },
+  "contactInfo": {
+    "title": "Contact Information",
+    "headquarters": "Global Headquarters",
+    "address": "Shenzhen Lejin Optoelectronics Co., Ltd.",
+    "fullAddress": "Building A, Industrial Park, Bao'an District, Shenzhen, China",
+    "phone": "+86-755-1234-5678",
+    "email": "info@lejin-led.com",
+    "website": "www.lejin-led.com",
+    "businessHours": "Business Hours",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM (GMT+8)",
+    "timezone": "China Standard Time"
+  },
+  "offices": {
+    "title": "Global Offices",
+    "regions": {
+      "asia": "Asia Pacific",
+      "europe": "Europe",
+      "americas": "Americas",
+      "middleEast": "Middle East & Africa"
+    }
+  },
+  "contactMethods": {
+    "title": "How to Reach Us",
+    "phone": {
+      "title": "Phone",
+      "description": "Speak directly with our sales team",
+      "action": "Call Now"
+    },
+    "email": {
+      "title": "Email",
+      "description": "Send us your detailed requirements",
+      "action": "Send Email"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Quick chat with our experts",
+      "action": "Chat Now"
+    },
+    "wechat": {
+      "title": "WeChat",
+      "description": "Connect via WeChat for instant support",
+      "action": "Add WeChat"
+    }
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "description": "Fill out the form below and we'll get back to you within 24 hours",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "position": "Position/Title",
+      "country": "Country",
+      "subject": "Subject",
+      "message": "Message",
+      "projectType": "Project Type",
+      "budget": "Budget Range",
+      "timeline": "Project Timeline",
+      "newsletter": "Subscribe to our newsletter for LED display updates"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "Enter your email address",
+      "phone": "Enter your phone number",
+      "company": "Enter your company name",
+      "position": "Enter your position",
+      "country": "Select your country",
+      "subject": "What can we help you with?",
+      "message": "Tell us about your project requirements...",
+      "timeline": "When do you need this completed?"
+    },
+    "projectTypes": {
+      "inquiry": "General Inquiry",
+      "quote": "Request Quote",
+      "support": "Technical Support",
+      "partnership": "Partnership Opportunity",
+      "other": "Other"
+    },
+    "budgetRanges": {
+      "under50k": "Under $50,000",
+      "50k-100k": "$50,000 - $100,000",
+      "100k-500k": "$100,000 - $500,000",
+      "over500k": "Over $500,000",
+      "discuss": "Prefer to discuss"
+    },
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Failed to send message. Please try again or contact us directly."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is your typical response time?",
+        "answer": "We respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly."
+      },
+      {
+        "question": "Do you provide international shipping?",
+        "answer": "Yes, we ship worldwide. We have experience delivering to over 160 countries and can handle all logistics and customs requirements."
+      },
+      {
+        "question": "What warranty do you offer?",
+        "answer": "We provide a comprehensive 2-year warranty on all our LED display products, with optional extended warranty packages available."
+      },
+      {
+        "question": "Can you provide custom solutions?",
+        "answer": "Absolutely! We specialize in custom LED display solutions tailored to your specific requirements, including unique shapes, sizes, and applications."
+      }
+    ]
+  },
+  "support": {
+    "title": "Need Technical Support?",
+    "description": "Our technical support team is available to help with installation, troubleshooting, and maintenance.",
+    "button": "Get Technical Support"
+  },
+  "social": {
+    "title": "Follow Us",
+    "description": "Stay updated with our latest products and industry news",
+    "platforms": {
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    }
+  }
+}

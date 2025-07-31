@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品中心",
+    "solutions": "解决方案",
+    "cases": "成功案例",
+    "news": "新闻资讯",
+    "support": "技术支持",
+    "contact": "联系我们",
+    "search": "搜索",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "switchLanguage": "切换语言",
+    "selectLanguage": "选择语言",
+    "breadcrumb": "面包屑导航"
+  },
+  "buttons": {
+    "learnMore": "了解更多",
+    "getQuote": "获取报价",
+    "contactUs": "联系我们",
+    "viewDetails": "查看详情",
+    "download": "下载",
+    "submit": "提交",
+    "cancel": "取消",
+    "close": "关闭",
+    "next": "下一步",
+    "previous": "上一步",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirm": "确认",
+    "back": "返回",
+    "continue": "继续",
+    "finish": "完成"
+  },
+  "company": {
+    "name": "深圳市联锦光电有限公司",
+    "shortName": "联锦光电",
+    "established": "成立于2007年",
+    "experience": "17年+经验",
+    "countries": "服务160+国家",
+    "factoryArea": "50,000m²厂房面积"
+  },
+  "contact": {
+    "phone": "电话",
+    "email": "邮箱",
+    "address": "地址",
+    "website": "网站",
+    "fax": "传真",
+    "mobile": "手机",
+    "whatsapp": "WhatsApp",
+    "wechat": "微信",
+    "skype": "Skype"
+  },
+  "footer": {
+    "copyright": "© 2024 深圳市联锦光电有限公司 版权所有",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "sitemap": "网站地图",
+    "followUs": "关注我们"
+  },
+  "status": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "info": "信息",
+    "noData": "暂无数据",
+    "notFound": "未找到",
+    "comingSoon": "即将推出"
+  },
+  "time": {
+    "now": "现在",
+    "today": "今天",
+    "yesterday": "昨天",
+    "tomorrow": "明天",
+    "thisWeek": "本周",
+    "lastWeek": "上周",
+    "thisMonth": "本月",
+    "lastMonth": "上月",
+    "thisYear": "今年",
+    "lastYear": "去年"
+  },
+  "units": {
+    "mm": "毫米",
+    "cm": "厘米",
+    "m": "米",
+    "inch": "英寸",
+    "ft": "英尺",
+    "kg": "千克",
+    "g": "克",
+    "lb": "磅",
+    "piece": "个",
+    "set": "套",
+    "unit": "台"
+  },
+  "currency": {
+    "usd": "美元",
+    "cny": "人民币",
+    "eur": "欧元",
+    "gbp": "英镑",
+    "jpy": "日元"
+  },
+  "seo": {
+    "demo": {
+      "title": "SEO与国际化演示",
+      "description": "SEO优化和国际化功能的演示页面",
+      "keywords": "SEO, 国际化, 多语言, LED显示屏, 本地化"
+    }
+  },
+  "demo": {
+    "datetime": {
+      "title": "日期时间格式化",
+      "current": "当前时间",
+      "relative": "1小时前",
+      "short": "短格式"
+    },
+    "numbers": {
+      "title": "数字和货币格式化",
+      "decimal": "十进制数字",
+      "currency": "货币",
+      "percent": "百分比"
+    },
+    "seo": {
+      "title": "SEO信息",
+      "current_locale": "当前语言设置",
+      "meta_tags": "生成的Meta标签"
+    },
+    "language_switching": {
+      "title": "语言切换",
+      "description": "点击语言切换器查看页面内容的动态变化。",
+      "current": "当前语言"
+    },
+    "tech_info": "语言: {{locale}} | 路径: {{path}} | 生成时间: {{timestamp}}"
+  }
+}

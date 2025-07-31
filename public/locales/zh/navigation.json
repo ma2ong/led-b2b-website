@@ -1,0 +1,46 @@
+{
+  "home": "首页",
+  "about": "关于我们",
+  "products": "产品中心",
+  "solutions": "解决方案",
+  "cases": "成功案例",
+  "news": "新闻资讯",
+  "support": "技术支持",
+  "contact": "联系我们",
+  "search": "搜索",
+  "openMenu": "打开菜单",
+  "closeMenu": "关闭菜单",
+  "switchLanguage": "切换语言",
+  "selectLanguage": "选择语言",
+  "menu": "菜单",
+  "language": "语言",
+  "submenus": {
+    "products": {
+      "finePitch": "小间距LED显示屏",
+      "indoor": "室内LED显示屏",
+      "outdoor": "户外LED显示屏",
+      "rental": "租赁LED显示屏",
+      "creative": "创意LED显示屏",
+      "transparent": "透明LED显示屏",
+      "badges": {
+        "popular": "热门",
+        "new": "新品",
+        "hot": "热销"
+      }
+    },
+    "solutions": {
+      "conference": "会议室显示",
+      "advertising": "数字广告",
+      "stage": "舞台演出",
+      "sports": "体育场馆",
+      "transportation": "交通信息",
+      "retail": "零售展示"
+    },
+    "support": {
+      "technical": "技术支持",
+      "downloads": "下载中心",
+      "faq": "常见问题",
+      "warranty": "质保服务"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "About Lejin Optoelectronics",
+    "subtitle": "Leading LED Display Manufacturer Since 2007",
+    "description": "With 17+ years of experience, we are committed to providing high-quality LED display solutions to customers worldwide."
+  },
+  "company": {
+    "overview": {
+      "title": "Company Overview",
+      "description": "Shenzhen Lejin Optoelectronics Co., Ltd. was established in 2007 as a professional LED display manufacturer. We specialize in R&D, production, and sales of various LED display products including fine pitch, outdoor, indoor, rental, and creative LED displays.",
+      "mission": "To provide innovative LED display solutions that enhance visual communication worldwide.",
+      "vision": "To become the world's leading LED display technology company.",
+      "values": "Innovation, Quality, Service, Integrity"
+    },
+    "stats": {
+      "established": "Established",
+      "experience": "Years Experience",
+      "countries": "Countries Served",
+      "employees": "Employees",
+      "factoryArea": "Factory Area",
+      "productionCapacity": "Monthly Production",
+      "patents": "Patents",
+      "certifications": "Certifications"
+    },
+    "milestones": {
+      "title": "Company Milestones",
+      "2007": "Company established in Shenzhen",
+      "2010": "First international export to Southeast Asia",
+      "2013": "ISO9001 quality management system certification",
+      "2015": "Expanded to European and American markets",
+      "2018": "Launched fine pitch LED display series",
+      "2020": "Achieved 160+ countries coverage",
+      "2022": "Obtained high-tech enterprise certification",
+      "2024": "Leading provider of LED display solutions"
+    }
+  },
+  "capabilities": {
+    "title": "Our Capabilities",
+    "rd": {
+      "title": "R&D Innovation",
+      "description": "Professional R&D team with 50+ engineers focusing on LED display technology innovation and product development."
+    },
+    "manufacturing": {
+      "title": "Manufacturing Excellence",
+      "description": "50,000m² modern factory with advanced production lines and strict quality control systems."
+    },
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "Comprehensive quality management system with multiple international certifications and testing standards."
+    },
+    "service": {
+      "title": "Global Service",
+      "description": "24/7 technical support and comprehensive after-sales service covering 160+ countries worldwide."
+    }
+  },
+  "certifications": {
+    "title": "Certifications & Awards",
+    "description": "Our commitment to quality is recognized by international standards and industry awards.",
+    "list": {
+      "iso9001": "ISO9001:2015 Quality Management System",
+      "iso14001": "ISO14001:2015 Environmental Management System",
+      "iso45001": "ISO45001:2018 Occupational Health and Safety",
+      "ce": "CE Certification",
+      "fcc": "FCC Certification",
+      "rohs": "RoHS Compliance",
+      "etl": "ETL Listed",
+      "cb": "CB Scheme Certificate",
+      "highTech": "High-tech Enterprise Certificate",
+      "specializedNew": "Specialized and New Enterprise"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Experienced professionals dedicated to LED display excellence",
+    "departments": {
+      "rd": "R&D Department",
+      "production": "Production Department",
+      "quality": "Quality Control",
+      "sales": "Sales & Marketing",
+      "support": "Technical Support",
+      "management": "Management Team"
+    }
+  },
+  "culture": {
+    "title": "Corporate Culture",
+    "innovation": {
+      "title": "Innovation",
+      "description": "Continuous innovation in LED display technology and solutions"
+    },
+    "quality": {
+      "title": "Quality First",
+      "description": "Uncompromising commitment to product quality and customer satisfaction"
+    },
+    "service": {
+      "title": "Customer Service",
+      "description": "Customer-centric approach with comprehensive support and service"
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "Honest business practices and transparent communication"
+    }
+  },
+  "contact": {
+    "title": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "businessHours": "Business Hours",
+    "timezone": "Time Zone"
+  }
+}

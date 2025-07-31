@@ -1,0 +1,137 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "solutions": "Solutions",
+    "cases": "Cases",
+    "news": "News",
+    "support": "Support",
+    "contact": "Contact",
+    "search": "Search",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Switch language",
+    "selectLanguage": "Select Language",
+    "breadcrumb": "Breadcrumb navigation"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "getQuote": "Get Quote",
+    "contactUs": "Contact Us",
+    "viewDetails": "View Details",
+    "download": "Download",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "continue": "Continue",
+    "finish": "Finish"
+  },
+  "company": {
+    "name": "Shenzhen Lejin Optoelectronics Co., Ltd.",
+    "shortName": "Lejin LED",
+    "established": "Established in 2007",
+    "experience": "17+ Years Experience",
+    "countries": "160+ Countries Served",
+    "factoryArea": "50,000m² Factory Area"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "website": "Website",
+    "fax": "Fax",
+    "mobile": "Mobile",
+    "whatsapp": "WhatsApp",
+    "wechat": "WeChat",
+    "skype": "Skype"
+  },
+  "footer": {
+    "copyright": "© 2024 Shenzhen Lejin Optoelectronics Co., Ltd. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap",
+    "followUs": "Follow Us"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "noData": "No data available",
+    "notFound": "Not found",
+    "comingSoon": "Coming Soon"
+  },
+  "time": {
+    "now": "Now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "thisYear": "This Year",
+    "lastYear": "Last Year"
+  },
+  "units": {
+    "mm": "mm",
+    "cm": "cm",
+    "m": "m",
+    "inch": "inch",
+    "ft": "ft",
+    "kg": "kg",
+    "g": "g",
+    "lb": "lb",
+    "piece": "piece",
+    "set": "set",
+    "unit": "unit"
+  },
+  "currency": {
+    "usd": "USD",
+    "cny": "CNY",
+    "eur": "EUR",
+    "gbp": "GBP",
+    "jpy": "JPY"
+  },
+  "seo": {
+    "demo": {
+      "title": "SEO & i18n Demo",
+      "description": "Demonstration of SEO optimization and internationalization features",
+      "keywords": "SEO, i18n, internationalization, LED display, multilingual"
+    }
+  },
+  "demo": {
+    "datetime": {
+      "title": "Date & Time Formatting",
+      "current": "Current time",
+      "relative": "1 hour ago",
+      "short": "Short format"
+    },
+    "numbers": {
+      "title": "Number & Currency Formatting",
+      "decimal": "Decimal number",
+      "currency": "Currency",
+      "percent": "Percentage"
+    },
+    "seo": {
+      "title": "SEO Information",
+      "current_locale": "Current Locale Settings",
+      "meta_tags": "Generated Meta Tags"
+    },
+    "language_switching": {
+      "title": "Language Switching",
+      "description": "Click the language switcher to see the page content change dynamically.",
+      "current": "Current language"
+    },
+    "tech_info": "Locale: {{locale}} | Path: {{path}} | Generated: {{timestamp}}"
+  }
+}

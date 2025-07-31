@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "关于联锦光电",
+    "subtitle": "自2007年以来的LED显示屏领导者",
+    "description": "拥有17年以上的经验，我们致力于为全球客户提供高质量的LED显示解决方案。"
+  },
+  "company": {
+    "overview": {
+      "title": "公司概况",
+      "description": "深圳市联锦光电有限公司成立于2007年，是一家专业的LED显示屏制造商。我们专注于各种LED显示产品的研发、生产和销售，包括小间距、户外、室内、租赁和创意LED显示屏。",
+      "mission": "提供创新的LED显示解决方案，增强全球视觉传播。",
+      "vision": "成为世界领先的LED显示技术公司。",
+      "values": "创新、质量、服务、诚信"
+    },
+    "stats": {
+      "established": "成立时间",
+      "experience": "年经验",
+      "countries": "服务国家",
+      "employees": "员工人数",
+      "factoryArea": "厂房面积",
+      "productionCapacity": "月产能",
+      "patents": "专利数量",
+      "certifications": "认证证书"
+    },
+    "milestones": {
+      "title": "公司里程碑",
+      "2007": "公司在深圳成立",
+      "2010": "首次出口东南亚市场",
+      "2013": "获得ISO9001质量管理体系认证",
+      "2015": "拓展欧美市场",
+      "2018": "推出小间距LED显示屏系列",
+      "2020": "实现160+国家覆盖",
+      "2022": "获得高新技术企业认证",
+      "2024": "LED显示解决方案领先供应商"
+    }
+  },
+  "capabilities": {
+    "title": "我们的能力",
+    "rd": {
+      "title": "研发创新",
+      "description": "拥有50+工程师的专业研发团队，专注于LED显示技术创新和产品开发。"
+    },
+    "manufacturing": {
+      "title": "制造卓越",
+      "description": "50000平方米现代化工厂，配备先进生产线和严格的质量控制体系。"
+    },
+    "quality": {
+      "title": "质量保证",
+      "description": "完善的质量管理体系，拥有多项国际认证和测试标准。"
+    },
+    "service": {
+      "title": "全球服务",
+      "description": "24/7技术支持和全面的售后服务，覆盖全球160+个国家。"
+    }
+  },
+  "certifications": {
+    "title": "认证与奖项",
+    "description": "我们对质量的承诺得到了国际标准和行业奖项的认可。",
+    "list": {
+      "iso9001": "ISO9001:2015质量管理体系",
+      "iso14001": "ISO14001:2015环境管理体系",
+      "iso45001": "ISO45001:2018职业健康安全",
+      "ce": "CE认证",
+      "fcc": "FCC认证",
+      "rohs": "RoHS合规",
+      "etl": "ETL认证",
+      "cb": "CB认证",
+      "highTech": "高新技术企业证书",
+      "specializedNew": "专精特新企业"
+    }
+  },
+  "team": {
+    "title": "我们的团队",
+    "description": "致力于LED显示卓越的经验丰富的专业人士",
+    "departments": {
+      "rd": "研发部门",
+      "production": "生产部门",
+      "quality": "质量控制",
+      "sales": "销售与市场",
+      "support": "技术支持",
+      "management": "管理团队"
+    }
+  },
+  "culture": {
+    "title": "企业文化",
+    "innovation": {
+      "title": "创新",
+      "description": "在LED显示技术和解决方案方面持续创新"
+    },
+    "quality": {
+      "title": "质量第一",
+      "description": "对产品质量和客户满意度的不妥协承诺"
+    },
+    "service": {
+      "title": "客户服务",
+      "description": "以客户为中心的方法，提供全面的支持和服务"
+    },
+    "integrity": {
+      "title": "诚信",
+      "description": "诚实的商业实践和透明的沟通"
+    }
+  },
+  "contact": {
+    "title": "联系信息",
+    "address": "地址",
+    "phone": "电话",
+    "email": "邮箱",
+    "website": "网站",
+    "businessHours": "营业时间",
+    "timezone": "时区"
+  }
+}

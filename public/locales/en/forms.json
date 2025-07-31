@@ -1,0 +1,99 @@
+{
+  "steps": {
+    "projectInfo": "Project Information",
+    "technicalRequirements": "Technical Requirements",
+    "contactInfo": "Contact Information"
+  },
+  "fields": {
+    "projectType": "Project Type",
+    "displaySize": "Display Size",
+    "pixelPitch": "Pixel Pitch",
+    "budget": "Budget Range",
+    "timeline": "Project Timeline",
+    "brightness": "Brightness Requirement",
+    "installation": "Installation Type",
+    "environment": "Environment",
+    "specialRequirements": "Special Requirements",
+    "attachments": "Attachments",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "position": "Position/Title",
+    "country": "Country",
+    "newsletter": "Subscribe to newsletter for LED display updates",
+    "terms": "I agree to the terms and conditions and privacy policy"
+  },
+  "placeholders": {
+    "displaySize": "e.g., 3m x 2m",
+    "pixelPitch": "Select pixel pitch",
+    "budget": "Select budget range",
+    "timeline": "e.g., 2 months",
+    "brightness": "e.g., 5000 cd/m²",
+    "installation": "Select installation type",
+    "specialRequirements": "Describe any special requirements...",
+    "name": "Enter your full name",
+    "email": "Enter your email address",
+    "phone": "Enter your phone number",
+    "company": "Enter your company name",
+    "position": "Enter your position",
+    "country": "Select your country"
+  },
+  "help": {
+    "attachments": "Upload project drawings, specifications, or reference images (PDF, DOC, JPG, PNG, max 10MB each)"
+  },
+  "buttons": {
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit Inquiry"
+  },
+  "validation": {
+    "projectTypeRequired": "Please select a project type",
+    "displaySizeRequired": "Please enter the display size",
+    "pixelPitchRequired": "Please select a pixel pitch",
+    "budgetRequired": "Please select a budget range",
+    "installationRequired": "Please select an installation type",
+    "environmentRequired": "Please select the environment",
+    "nameRequired": "Please enter your name",
+    "nameMinLength": "Name must be at least 2 characters",
+    "emailRequired": "Please enter your email address",
+    "emailInvalid": "Please enter a valid email address",
+    "phoneRequired": "Please enter your phone number",
+    "companyRequired": "Please enter your company name",
+    "countryRequired": "Please select your country",
+    "termsRequired": "Please accept the terms and conditions"
+  },
+  "projectType": {
+    "indoor": "Indoor LED Display",
+    "outdoor": "Outdoor LED Display",
+    "rental": "Rental LED Display",
+    "creative": "Creative LED Display",
+    "other": "Other"
+  },
+  "pixelPitch": {
+    "custom": "Custom"
+  },
+  "budget": {
+    "under10k": "Under $10,000",
+    "10k50k": "$10,000 - $50,000",
+    "50k100k": "$50,000 - $100,000",
+    "100k500k": "$100,000 - $500,000",
+    "over500k": "Over $500,000",
+    "discuss": "Prefer to discuss"
+  },
+  "installation": {
+    "wallMount": "Wall Mount",
+    "ceilingMount": "Ceiling Mount",
+    "floorStand": "Floor Stand",
+    "truss": "Truss System",
+    "custom": "Custom Installation"
+  },
+  "environment": {
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "semiOutdoor": "Semi-outdoor"
+  },
+  "country": {
+    "other": "Other"
+  }
+}

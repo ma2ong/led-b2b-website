@@ -1,0 +1,77 @@
+{
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "url": "Please enter a valid URL",
+    "minLength": "Must be at least {{min}} characters",
+    "maxLength": "Must be no more than {{max}} characters",
+    "min": "Must be at least {{min}}",
+    "max": "Must be no more than {{max}}",
+    "pattern": "Invalid format",
+    "numeric": "Must be a number",
+    "integer": "Must be a whole number",
+    "positive": "Must be a positive number",
+    "fileSize": "File size must be less than {{size}}",
+    "fileType": "File type not supported",
+    "passwordMatch": "Passwords do not match",
+    "terms": "You must accept the terms and conditions"
+  },
+  "api": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "forbidden": "Access denied.",
+    "notFound": "The requested resource was not found.",
+    "timeout": "Request timed out. Please try again.",
+    "badRequest": "Invalid request. Please check your input.",
+    "conflict": "The resource already exists.",
+    "tooManyRequests": "Too many requests. Please try again later.",
+    "maintenance": "The system is under maintenance. Please try again later."
+  },
+  "form": {
+    "submitError": "Failed to submit form. Please try again.",
+    "loadError": "Failed to load form data.",
+    "saveError": "Failed to save changes.",
+    "deleteError": "Failed to delete item.",
+    "uploadError": "Failed to upload file.",
+    "invalidData": "Invalid data provided.",
+    "missingFields": "Please fill in all required fields.",
+    "duplicateEntry": "This entry already exists."
+  },
+  "auth": {
+    "loginFailed": "Login failed. Please check your credentials.",
+    "sessionExpired": "Your session has expired. Please log in again.",
+    "accessDenied": "Access denied. You don't have permission to view this page.",
+    "accountLocked": "Your account has been locked. Please contact support.",
+    "passwordWeak": "Password is too weak. Please choose a stronger password.",
+    "emailNotVerified": "Please verify your email address before continuing."
+  },
+  "file": {
+    "uploadFailed": "File upload failed.",
+    "fileTooLarge": "File is too large. Maximum size is {{size}}.",
+    "invalidFileType": "Invalid file type. Allowed types: {{types}}.",
+    "corruptedFile": "The file appears to be corrupted.",
+    "downloadFailed": "Failed to download file.",
+    "processingFailed": "Failed to process file."
+  },
+  "translation": {
+    "loadFailed": "Failed to load translations.",
+    "saveFailed": "Failed to save translation.",
+    "deleteFailed": "Failed to delete translation.",
+    "importFailed": "Failed to import translations.",
+    "exportFailed": "Failed to export translations.",
+    "validationFailed": "Translation validation failed.",
+    "keyExists": "Translation key already exists.",
+    "invalidKey": "Invalid translation key format.",
+    "missingValue": "Translation value is required."
+  },
+  "general": {
+    "unknownError": "An unknown error occurred.",
+    "tryAgain": "Please try again.",
+    "contactSupport": "If the problem persists, please contact support.",
+    "pageNotFound": "The page you're looking for doesn't exist.",
+    "serviceUnavailable": "Service is temporarily unavailable.",
+    "maintenanceMode": "The system is currently under maintenance."
+  }
+}

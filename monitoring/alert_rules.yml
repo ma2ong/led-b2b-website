@@ -1,0 +1,155 @@
+# Prometheus告警规则
+groups:
+  - name: led-b2b-alerts
+    rules:
+      # 应用健康检查
+      - alert: ApplicationDown
+        expr: up{job="led-b2b-app"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "LED B2B应用服务不可用"
+          description: "LED B2B应用服务已经停止响应超过1分钟"
+
+      # 高错误率
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "高错误率检测"
+          description: "5xx错误率超过10%，持续5分钟"
+
+      # 响应时间过长
+      - alert: HighResponseTime
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "响应时间过长"
+          description: "95%的请求响应时间超过2秒"
+
+      # 内存使用率过高
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes > 0.9
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "内存使用率过高"
+          description: "内存使用率超过90%"
+
+      # CPU使用率过高
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "CPU使用率过高"
+          description: "CPU使用率超过80%"
+
+      # 磁盘空间不足
+      - alert: DiskSpaceLow
+        expr: (node_filesystem_avail_bytes / node_filesystem_size_bytes) * 100 < 10
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "磁盘空间不足"
+          description: "磁盘可用空间少于10%"
+
+      # 数据库连接失败
+      - alert: DatabaseDown
+        expr: up{job="postgres"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "数据库不可用"
+          description: "PostgreSQL数据库连接失败"
+
+      # Redis连接失败
+      - alert: RedisDown
+        expr: up{job="redis"} == 0
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Redis缓存不可用"
+          description: "Redis缓存服务连接失败"
+
+      # 网站可访问性
+      - alert: WebsiteDown
+        expr: probe_success{job="blackbox"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "网站不可访问"
+          description: "网站 {{ $labels.instance }} 无法访问"
+
+      # SSL证书即将过期
+      - alert: SSLCertExpiringSoon
+        expr: probe_ssl_earliest_cert_expiry - time() < 86400 * 30
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "SSL证书即将过期"
+          description: "SSL证书将在30天内过期"
+
+      # 高并发连接数
+      - alert: HighConnectionCount
+        expr: nginx_connections_active > 1000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Nginx连接数过高"
+          description: "活跃连接数超过1000"
+
+      # 数据库连接池耗尽
+      - alert: DatabaseConnectionPoolExhausted
+        expr: pg_stat_activity_count > 90
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "数据库连接池即将耗尽"
+          description: "数据库活跃连接数超过90"
+
+  - name: business-alerts
+    rules:
+      # 询盘转化率异常
+      - alert: LowInquiryConversionRate
+        expr: rate(inquiry_completed_total[1h]) / rate(inquiry_started_total[1h]) < 0.1
+        for: 30m
+        labels:
+          severity: warning
+        annotations:
+          summary: "询盘转化率异常"
+          description: "询盘转化率低于10%"
+
+      # 页面加载时间异常
+      - alert: SlowPageLoad
+        expr: histogram_quantile(0.95, rate(page_load_duration_seconds_bucket[10m])) > 3
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "页面加载速度慢"
+          description: "95%的页面加载时间超过3秒"
+
+      # 搜索功能异常
+      - alert: SearchFunctionality
+        expr: rate(search_errors_total[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "搜索功能异常"
+          description: "搜索错误率超过5%"

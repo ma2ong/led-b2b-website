@@ -1,0 +1,97 @@
+{
+  "categories": {
+    "finePitch": "小间距LED显示屏",
+    "indoor": "室内LED显示屏",
+    "outdoor": "户外LED显示屏",
+    "rental": "租赁LED显示屏",
+    "creative": "创意LED显示屏",
+    "transparent": "透明LED显示屏"
+  },
+  "specifications": {
+    "pixelPitch": "像素间距",
+    "brightness": "亮度",
+    "refreshRate": "刷新率",
+    "colorTemperature": "色温",
+    "viewingAngle": "视角",
+    "ipRating": "防护等级",
+    "lifespan": "使用寿命",
+    "powerConsumption": "功耗",
+    "resolution": "分辨率",
+    "cabinetSize": "箱体尺寸",
+    "weight": "重量",
+    "contrast": "对比度",
+    "grayscale": "灰度等级",
+    "colorGamut": "色域"
+  },
+  "units": {
+    "mm": "毫米",
+    "nits": "尼特",
+    "hz": "赫兹",
+    "kelvin": "开尔文",
+    "degrees": "度",
+    "hours": "小时",
+    "watts": "瓦",
+    "wattsPerSqm": "瓦/平方米",
+    "kg": "公斤",
+    "ratio": ":1",
+    "bit": "位",
+    "percent": "%"
+  },
+  "applications": {
+    "conference": "会议室",
+    "advertising": "广告显示",
+    "stage": "舞台演出",
+    "sports": "体育场馆",
+    "transportation": "交通枢纽",
+    "retail": "零售商店",
+    "control": "控制室",
+    "broadcast": "广播演播室",
+    "education": "教育培训",
+    "corporate": "企业展示"
+  },
+  "features": {
+    "highResolution": "高分辨率",
+    "seamlessSplicing": "无缝拼接",
+    "wideViewingAngle": "宽视角",
+    "highBrightness": "高亮度",
+    "energyEfficient": "节能环保",
+    "easyMaintenance": "易于维护",
+    "frontAccess": "前维护",
+    "quickInstall": "快速安装",
+    "weatherResistant": "防风雨",
+    "dustProof": "防尘"
+  },
+  "actions": {
+    "viewDetails": "查看详情",
+    "getQuote": "获取报价",
+    "compare": "对比",
+    "addToCompare": "加入对比",
+    "removeFromCompare": "移除对比",
+    "downloadDatasheet": "下载规格书",
+    "contactSales": "联系销售",
+    "requestSample": "申请样品"
+  },
+  "filters": {
+    "all": "全部产品",
+    "pixelPitch": "像素间距",
+    "application": "应用场景",
+    "brightness": "亮度",
+    "size": "尺寸",
+    "priceRange": "价格区间",
+    "sortBy": "排序方式",
+    "sortOptions": {
+      "name": "名称",
+      "price": "价格",
+      "popularity": "热门度",
+      "newest": "最新"
+    }
+  },
+  "comparison": {
+    "title": "产品对比",
+    "compare": "对比产品",
+    "selected": "已选择",
+    "max": "最多3个产品",
+    "clear": "清空全部",
+    "export": "导出对比"
+  }
+}
