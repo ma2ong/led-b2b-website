@@ -11,7 +11,7 @@ import { generateId } from '@/lib/utils';
 
 // 这里应该从数据库或其他存储中获取数据
 // 为了演示，我们使用一个简单的内存存储
-let inquiries: Inquiry[] = [];
+const inquiries: Inquiry[] = [];
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;
@@ -77,7 +77,7 @@ async function handleGet(req: NextApiRequest, res: NextApiResponse, id: string) 
   }
 
   // 根据include参数决定返回哪些关联数据
-  let responseData = { ...inquiry };
+  const responseData = { ...inquiry };
   
   if (include) {
     const includeArray = Array.isArray(include) ? include : [include];

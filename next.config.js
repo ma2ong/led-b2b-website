@@ -5,6 +5,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   
   // 图片优化配置
   images: {

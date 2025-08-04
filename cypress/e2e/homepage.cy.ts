@@ -70,7 +70,7 @@ describe('Homepage', () => {
   it('should load without accessibility violations', () => {
     // 基础的可访问性检查
     cy.get('h1').should('exist');
-    cy.get('main').should('have.attr', 'role').or('not.have.attr', 'role');
+    cy.get('main').should('exist');
     
     // 检查图片是否有alt属性（如果存在）
     cy.get('img').each(($img) => {

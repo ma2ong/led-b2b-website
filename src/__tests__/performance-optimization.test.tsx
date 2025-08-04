@@ -243,7 +243,7 @@ describe('Performance Monitor', () => {
       cls: 0.3,  // Poor
     };
 
-    const scores = performanceMonitor.getCoreWebVitals Score();
+    const scores = performanceMonitor.getCoreWebVitalsScore();
 
     expect(scores.lcp).toBe('poor');
     expect(scores.fid).toBe('poor');

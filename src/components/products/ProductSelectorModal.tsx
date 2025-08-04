@@ -57,7 +57,7 @@ const ProductSelectorModal: React.FC<ProductSelectorModalProps> = ({
 
   // 过滤和排序产品
   const filteredProducts = useMemo(() => {
-    let filtered = products.filter(product => {
+    const filtered = products.filter(product => {
       // 排除已在对比列表中的产品
       if (isInComparison(product.id)) {
         return false;

@@ -67,11 +67,11 @@ const InquiryManagement: React.FC<InquiryManagementProps> = ({ className }) => {
         sortBy: sortBy as any,
         filters: {
           search: searchTerm || undefined,
-          status: filters.status || undefined,
-          priority: filters.priority || undefined,
-          type: filters.type || undefined,
-          source: filters.source || undefined,
-          customerType: filters.customerType || undefined,
+          status: (filters.status as any) || undefined,
+          priority: (filters.priority as any) || undefined,
+          type: (filters.type as any) || undefined,
+          source: (filters.source as any) || undefined,
+          customerType: (filters.customerType as any) || undefined,
           country: filters.country || undefined,
         },
       };
@@ -127,7 +127,7 @@ const InquiryManagement: React.FC<InquiryManagementProps> = ({ className }) => {
     { value: InquiryType.PRODUCT_INFO, label: t('typeProductInfo') },
     { value: InquiryType.TECHNICAL_SUPPORT, label: t('typeTechnicalSupport') },
     { value: InquiryType.PARTNERSHIP, label: t('typePartnership') },
-    { value: InquiryType.OTHER, label: t('typeOther') },
+    { value: InquiryType.GENERAL, label: t('typeGeneral') },
   ];
 
   const sortOptions = [

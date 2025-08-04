@@ -194,7 +194,7 @@ const ProductManagement: React.FC<ProductManagementProps> = ({ className }) => {
 
   // 筛选和排序产品
   const filteredAndSortedProducts = React.useMemo(() => {
-    let filtered = products.filter(product => {
+    const filtered = products.filter(product => {
       const matchesSearch = !searchTerm || 
         product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         product.description.toLowerCase().includes(searchTerm.toLowerCase()) ||

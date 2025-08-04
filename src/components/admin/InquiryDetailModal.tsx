@@ -52,7 +52,6 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
   const [newFollowUp, setNewFollowUp] = useState({
     type: 'note',
     content: '',
-    scheduledAt: '',
   });
 
   if (!isOpen) return null;
@@ -115,11 +114,13 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
     try {
       const followUp: InquiryFollowUp = {
         id: `followup_${Date.now()}`,
+        inquiryId: inquiry.id,
         type: newFollowUp.type as any,
         content: newFollowUp.content,
-        createdBy: 'current-user', // 应该从认证系统获取
+        userId: 'current-user', // 应该从认证系统获取
+        userName: 'Current User',
+        subject: newFollowUp.type,
         createdAt: new Date(),
-        scheduledAt: newFollowUp.scheduledAt ? new Date(newFollowUp.scheduledAt) : undefined,
       };
 
       const response = await fetch(`/api/inquiries/${inquiry.id}/followups`, {
@@ -134,7 +135,7 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
         const updatedInquiry = { ...editedInquiry };
         updatedInquiry.followUps = [...updatedInquiry.followUps, followUp];
         setEditedInquiry(updatedInquiry);
-        setNewFollowUp({ type: 'note', content: '', scheduledAt: '' });
+        setNewFollowUp({ type: 'note', content: '' });
       }
     } catch (error) {
       console.error('Error adding follow-up:', error);
@@ -201,8 +202,8 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
                   <Button
                     size="sm"
                     onClick={handleSave}
-                    leftIcon={<CheckIcon className="w-4 h-4" />}
                   >
+                    <CheckIcon className="w-4 h-4 mr-2" />
                     {t('save')}
                   </Button>
                 </>
@@ -211,8 +212,8 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
                   size="sm"
                   variant="outline"
                   onClick={() => setIsEditing(true)}
-                  leftIcon={<PencilIcon className="w-4 h-4" />}
                 >
+                  <PencilIcon className="w-4 h-4 mr-2" />
                   {t('edit')}
                 </Button>
               )}
@@ -460,15 +461,7 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
                           type: e.target.value
                         }))}
                       />
-                      <Input
-                        label={t('scheduledAt')}
-                        type="datetime-local"
-                        value={newFollowUp.scheduledAt}
-                        onChange={(e) => setNewFollowUp(prev => ({
-                          ...prev,
-                          scheduledAt: e.target.value
-                        }))}
-                      />
+
                     </div>
                     <Textarea
                       label={t('content')}
@@ -504,7 +497,7 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
                                 {t(followUp.type)}
                               </span>
                               <span className="text-sm text-gray-500">
-                                by {followUp.createdBy}
+                                by {followUp.userName}
                               </span>
                             </div>
                             <div className="flex items-center space-x-2 text-sm text-gray-500">
@@ -513,11 +506,7 @@ const InquiryDetailModal: React.FC<InquiryDetailModalProps> = ({
                             </div>
                           </div>
                           <p className="text-gray-700 whitespace-pre-wrap">{followUp.content}</p>
-                          {followUp.scheduledAt && (
-                            <div className="mt-2 text-sm text-gray-500">
-                              {t('scheduledFor')}: {followUp.scheduledAt.toLocaleString()}
-                            </div>
-                          )}
+
                         </div>
                       ))}
                     </div>

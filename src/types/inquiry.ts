@@ -5,12 +5,15 @@
 // 询盘状态枚举
 export enum InquiryStatus {
   NEW = 'new',
+  ASSIGNED = 'assigned',
+  IN_PROGRESS = 'in_progress',
   CONTACTED = 'contacted',
   QUOTED = 'quoted',
   NEGOTIATING = 'negotiating',
   WON = 'won',
   LOST = 'lost',
   CANCELLED = 'cancelled',
+  CLOSED = 'closed',
 }
 
 // 询盘优先级枚举
